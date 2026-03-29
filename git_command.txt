@@ -4,3 +4,6 @@ git add 'file name' #untracked to staged
 git rm --cashed 'file name' #staged to untracked
 git commit -m 'message ' #staged to tracked 
 git restore 'testing.py'
+git restore -v #it will show the pull or fetch 
+git remote set-url origin
+git push origin master
