@@ -1,0 +1,6 @@
+git init 
+git status 
+git add 'file name' #untracked to staged
+git rm --cashed 'file name' #staged to untracked
+git commit -m 'message ' #staged to tracked 
+git restore 'testing.py'
